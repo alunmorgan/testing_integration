@@ -6,10 +6,10 @@ class TestStringMethods(unittest.TestCase):
         pass
     
     def test_pass(self):
-        self.assertEqual(adding, 5)
+        self.assertEqual(main_code.adding, 5)
 
     def test_fail(self):
-        self.assertEqual(adding, 4)
+        self.assertEqual(main_code.adding, 4)
 
 
 if __name__ == '__main__':
