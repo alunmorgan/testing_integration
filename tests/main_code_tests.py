@@ -1,7 +1,10 @@
 import unittest
 
 class TestStringMethods(unittest.TestCase):
-
+    
+    def test_setup(self);
+        pass
+    
     def test_pass(self):
         self.assertEqual(adding, 5)
 
