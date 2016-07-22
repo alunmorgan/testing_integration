@@ -6,4 +6,4 @@ dependencies:
   - pytest
   - pip:
     - pytest-cov
-- coveralls
+    - coveralls
